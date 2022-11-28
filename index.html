@@ -33,46 +33,39 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
    </head>
    <body>
+
+      <a href="#top"><button id="scrollbutton"><img width="50" lenght="50" src="./images/scrollbutton.png"></button></a>
+
       <!-- header section start -->
       <div class="header_section">
          <div class="header_main">
             <div class="mobile_menu">
                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                  <div class="logo_mobile"><a href="index.html"><img src="images/logo.png"></a></div>
+                  <!-- <div class="logo_mobile"><a href="index.html"><img src="images/logo.png"></a></div> -->
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
                      <ul class="navbar-nav">
                         <li class="nav-item">
-                           <a class="nav-link" href="index.html">Home</a>
+                           <a class="nav-link" href="#sobrejuego">Sobre el Juego</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="services.html">Services</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link " href="blog.html">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link " href="contact.html">Contact</a>
+                           <a class="nav-link" href="#sobrenosotros">Sobre nosotros</a>
                         </li>
                      </ul>
                   </div>
                </nav>
             </div>
             <div class="container-fluid">
-               <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+               <!-- <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div> -->
                <div class="menu_main">
                   <ul>
-                     <li><a href="./index.html">Inicio</a></li>
-                     <li><a href="#titulo1">Titulo1</a></li>
-                     <li><a href="#titulo2">Titulo2</a></li>
-                     <li><a href="#titulo3">Titulo3</a></li>
+                     <li id="top"><a href="#sobrejuego">Sobre el Juego</a></li>
+                     <!-- <li><a href="#titulo2">Titulo2</a></li> -->
+                     <!-- <li><a href="#titulo3">Titulo3</a></li> -->
                      <li><a href="#sobrenosotros">Sobre nosotros</a></li>
-                     <li><a href="#blog">Blog</a></li>
+                     <!-- <li><a href="#blog">Blog</a></li> -->
                   </ul>
                </div>
             </div>
@@ -83,9 +76,9 @@
                <div class="carousel-inner">
                   <div class="carousel-item active">
                      <div class="container">
-                        <h1 class="banner_taital">Hero's Destiny</h1>
+                        <h1 id="herosdestiny" class="banner_taital">Hero's Destiny</h1>
                         <p class="banner_text">La realidad está en tus manos.</p>
-                        <div class="read_bt"><a href="#">Descargar</a></div>
+                        <div class="read_bt"><a href="https://drive.google.com/uc?export=download&id=1HSeYL0ni7Bec_1I9MUJx1xIAe5UxeKag" download="Heros Destiny! v1.0 Alpha">Descargar v1.0 Alpha</a></div>
                      </div>
                   </div>
                </div>
@@ -97,55 +90,55 @@
       <!-- services section start -->
       <div class="services_section layout_padding">
          <div class="container">
-            <h1 class="services_taital"id="titulo1">Sobre el Juego</h1>
+            <h1 class="services_taital"id="sobrejuego">Sobre el Juego</h1>
             <!-- <p class="services_text">Descripcion</p> -->
             <div class="services_section_2">
                <div class="row">
                   <div class="col-md-4">
-                     <div><img src="images/img-1.png" class="services_img"></div>
-                     <div class="btn_main"><a href="#">Foto1</a></div>
+                     <div><a href="./aventura.html"><img src="images/img-1.png" class="services_img"width="309" height="353"></a></div>
+                     <div class="btn_main"><a href="./aventura.html">Aventura con múltiples finales</a></div>
                   </div>
                   <div class="col-md-4">
-                     <div><img src="images/img-2.png" class="services_img"></div>
-                     <div class="btn_main active"><a href="#">Foto2</a></div>
+                     <div><a href="./trabajoenproyecto.html"><img src="images/img-3.png" class="services_img"width="309" height="353"></a></div>
+                     <div class="btn_main"><a href="./trabajoenproyecto.html">Trabajo en proyecto</a></div>
                   </div>
                   <div class="col-md-4">
-                     <div><a href="#"><img src="images/img-3.png" class="services_img"width="309" height="353"></a></div>
-                     <div class="btn_main"><a href="#">Trabajo en proyecto</a></div>
+                     <div><a href="./sugerencias.html"><img src="images/img-2.png" class="services_img"width="309" height="353"></a></div>
+                     <div class="btn_main"><a href="./sugerencias.html">Sugerencias escuchadas</a></div>
                   </div>
                </div>
             </div>
          </div>
       </div>
       <!-- services section end -->
+      <div class="blog_section layout_padding">
+         <div class="container">
+            <h1 class="blog_taital"id="titulo2">"El reino buscaba nuevos paisajes para habitar, la sobrepoblación era un problema, pero algo salió fatal...<br>Es tu deber restaurar el orden de los universos"</h1>
+            <!-- <p class="blog_text">Descripcion</p> -->
+            <div class="play_icon_main">
+
+            </div>
+         </div>
+      </div>
       <!-- about section start -->
       <div class="about_section layout_padding">
          <div class="container-fluid">
             <div class="row">
                <div class="col-md-6">
                   <div class="about_taital_main">
-                     <h1 class="about_taital"id="titulo2">Titulo2</h1>
-                     <p class="about_text">Descripcion </p>
-                     <div class="readmore_bt"><a href="#">Leer mas¿</a></div>
+                     <h1 class="about_taital">"Un sueño"</h1>
+                     <p class="about_text">Por parte del creador del proyecto, esto es un sueño proyectado en el videojuego que siempre quiso crear; por más inexperto que sea del tema, esta es su primer idea llevada a cabo.</p>
+                     <!-- <div class="readmore_bt"><a href="#">Leer mas¿</a></div> -->
                   </div>
                </div>
                <div class="col-md-6 padding_right_0">
-                  <div><img src="images/about-img.png" class="about_img"></div>
+                  <div><img id="titulo3" src="images/about-img.png" class="about_img"></div>
                </div>
             </div>
          </div>
       </div>
       <!-- about section end -->
       <!-- blog section start -->
-      <div class="blog_section layout_padding">
-         <div class="container">
-            <h1 class="blog_taital"id="titulo3">Titulo3</h1>
-            <p class="blog_text">Descripcion</p>
-            <div class="play_icon_main">
-
-            </div>
-         </div>
-      </div>
       <!-- blog section end -->
       <!-- client section start -->
       <div class="client_section layout_padding">
@@ -172,7 +165,7 @@
                               <div class="client_taital_right">
                                  <h4 class="client_name">Pastito</h4>
                                  <p class="customer_text">Productor<br>Diseñador del juego</p>
-                                 <p class="customer_text"><img src="./images/yt-icon.png" width="25" height="25"style="border: 0; display:inline; margin: 0 2px; box-shadow: none" alt="start up icon"><a href="https://www.youtube.com/@pastito7413"target="_blank" rel="noopener noreferrer">Pastito</a></p>
+                                 <p class="customer_text"><img src="./images/yt-icon.png" width="25" height="25"style="border: 0; display:inline; margin: 0 2px; box-shadow: none" alt="start up icon"><a href="https://www.youtube.com/@pastito7413" target="_blank" rel="noopener noreferrer">Pastito</a></p>
                               </div>
                            </div>
                         </div>
@@ -235,7 +228,7 @@
       </div>
       <!-- client section start -->
       <!-- choose section start -->
-      <div class="choose_section layout_padding">
+<!--       <div class="choose_section layout_padding">
          <div class="container">
             <h1 class="choose_taital"id="blog">Blog¿</h1>
             <p class="choose_text">Explica de que se trata, que podes hacer en el blog etc </p>
@@ -244,7 +237,7 @@
                <div class="getquote_bt"><a href="#">Ir al blog</a></div>
             </div>
          </div>
-      </div>
+      </div> -->
       <!-- choose section end -->
       <!-- footer section start -->
       <div class="footer_section layout_padding">
@@ -282,6 +275,17 @@
       <script src="js/custom.js"></script>
       <!-- javascript --> 
       <script src="js/owl.carousel.js"></script>
-      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>    
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>  
+      <script>
+         let boton = document.getElementById("scrollbutton")
+         window.onscroll = function() {scrollFunction()}
+         function scrollFunction() {
+            if(document.body.scrollTop>700 || document.documentElement.scrollTop>700){
+               boton.style.display = "block"
+            }else{
+               boton.style.display = "none"
+            }
+         }
+      </script>  
    </body>
 </html>
